@@ -67,6 +67,37 @@ footer {
   font-size: 42px;
   letter-spacing: 2px;
 }
+/* HERO CON IMAGEN */
+.hero {
+  height: 80vh;
+  background-image: url("../hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
 
 .header p {
   font-size: 18px;
