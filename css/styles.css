@@ -103,3 +103,21 @@ footer {
   font-size: 18px;
   opacity: 0.85;
 }
+/* SECCIÓN HISTORIA */
+#historia {
+  max-width: 800px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+#historia h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+#historia p {
+  font-size: 16px;
+  line-height: 1.6;
+}
