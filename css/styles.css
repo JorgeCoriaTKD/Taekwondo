@@ -121,3 +121,30 @@ footer {
   font-size: 16px;
   line-height: 1.6;
 }
+/* LÍNEA DE TIEMPO */
+#timeline {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+#timeline h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.evento {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.anio {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  min-width: 60px;
+}
