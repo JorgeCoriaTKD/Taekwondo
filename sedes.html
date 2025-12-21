@@ -4,92 +4,75 @@
   <meta charset="UTF-8">
   <title>Sedes – CEPTRA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="logo">CEPTRA</div>
+<header class="navbar">
+  <div class="logo">CEPTRA</div>
+  <nav class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="granmaster.html">Gran Máster</a>
+    <a href="sedes.html">Sedes</a>
+  </nav>
+</header>
 
-    <nav class="menu">
-      <a href="index.html">Inicio</a>
-      <a href="granmaster.html">Gran Máster</a>
-      <a href="sedes.html">Sedes</a>
-      <a href="#">Eventos</a>
-      <a href="#">Agenda</a>
-    </nav>
-  </header>
+<section class="section">
+  <div class="container">
 
-  <!-- SEDES -->
-  <section class="section">
-    <div class="container">
+    <h1>Nuestras Sedes</h1>
+    <p class="subtitle">Elegí la sede que mejor se adapte a vos</p>
 
-      <h1>Nuestras Sedes</h1>
-      <p class="subtitle">
-        Entrená en la sede que mejor se adapte a vos
-      </p>
+    <div class="sedes-grid">
 
-      <div class="sedes-grid">
+      <!-- SEDE 1 -->
+      <div class="sede-card">
+        <h3>25 y 59 – La Plata</h3>
+        <p><strong>Profesor:</strong> Gran Máster Jorge Coria</p>
 
-        <!-- SEDE -->
-        <div class="sede-card">
-          <h3>25 y 59 – La Plata</h3>
-          <p><strong>Profesor:</strong> Gran Máster Jorge Coria</p>
-          <p><strong>Ubicación:</strong> La Plata</p>
+        <div class="sede-actions">
+          <a href="perfiles/jorge-coria.html" class="btn secondary">
+            Ver perfil del profesor
+          </a>
 
-          <div class="sede-actions">
-            <a
-              href="https://wa.me/5492216120539?text=Quiero%20Más%20Información%20Para%20Comenzar%20Taekwondo"
-              class="btn primary"
-              target="_blank"
-            >
-              WhatsApp
-            </a>
-            <a href="perfiles/alma-luduena.html" class="btn secondary">
-  Ver perfil del profesor
-</a>
+          <a href="https://wa.me/5492216120539?text=Quiero%20Más%20Información%20Para%20Comenzar%20Taekwondo"
+             class="btn primary" target="_blank">
+            WhatsApp
+          </a>
 
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=25+y+59+La+Plata"
-              class="btn secondary"
-              target="_blank"
-            >
-              Ver en mapa
-            </a>
-          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=25+y+59+La+Plata"
+             class="btn secondary" target="_blank">
+            Ver en mapa
+          </a>
         </div>
-
-        <!-- SEDE -->
-        <div class="sede-card">
-          <h3>Club Olimpia – Los Hornos</h3>
-          <p><strong>Profesor:</strong> Gran Máster Jorge Coria</p>
-          <p><strong>Dirección:</strong> 66 y 142</p>
-
-          <div class="sede-actions">
-            <a
-              href="https://wa.me/5492216120539?text=Quiero%20Más%20Información%20Para%20Comenzar%20Taekwondo"
-              class="btn primary"
-              target="_blank"
-            >
-              WhatsApp
-            </a>
-
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=66+y+142+Los+Hornos"
-              class="btn secondary"
-              target="_blank"
-            >
-              Ver en mapa
-            </a>
-          </div>
-        </div>
-
       </div>
-    </div>
-  </section>
 
-  <script src="js/main.js"></script>
+      <!-- SEDE 2 -->
+      <div class="sede-card">
+        <h3>Centro de Fomento General San Martín</h3>
+        <p><strong>Profesora:</strong> Alma Ludueña</p>
+
+        <div class="sede-actions">
+          <a href="perfiles/alma-luduena.html" class="btn secondary">
+            Ver perfil del profesor
+          </a>
+
+          <a href="https://wa.me/5492214084837?text=Quiero%20Más%20Información%20Para%20Comenzar%20Taekwondo"
+             class="btn primary" target="_blank">
+            WhatsApp
+          </a>
+
+          <a href="https://www.google.com/maps/search/?api=1&query=60+entre+144+y+145+Los+Hornos"
+             class="btn secondary" target="_blank">
+            Ver en mapa
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="js/main.js"></script>
 </body>
 </html>
