@@ -140,3 +140,33 @@ body {
 .sede-actions {
   margin-top: 20px;
 }
+.profile {
+  max-width: 800px;
+}
+
+.profile-box {
+  background: #111;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+.profile-box p {
+  margin-bottom: 15px;
+  color: #d0d0d0;
+  line-height: 1.6;
+}
+
+.profile-actions {
+  margin-top: 25px;
+}
+
+.profile-social {
+  margin-top: 20px;
+}
+
+.profile-social a {
+  margin-right: 15px;
+  color: #7cc4ff;
+  font-weight: 600;
+}
