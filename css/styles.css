@@ -170,3 +170,27 @@ body {
   color: #7cc4ff;
   font-weight: 600;
 }
+.eventos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.evento-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.evento-fecha {
+  color: #7cc4ff;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.evento-desc {
+  color: #ccc;
+  margin-bottom: 15px;
+}
