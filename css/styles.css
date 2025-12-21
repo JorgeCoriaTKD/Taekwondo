@@ -363,3 +363,8 @@ body {
 .navbar {
   backdrop-filter: blur(10px);
 }
+.evento-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
