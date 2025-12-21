@@ -1,2 +1,1 @@
-
-// JS base - más adelante agregamos animaciones
+lucide.createIcons();
