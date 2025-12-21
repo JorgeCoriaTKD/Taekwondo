@@ -108,3 +108,35 @@ body {
   margin-right: 15px;
   margin-bottom: 10px;
 }
+.sedes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.sede-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sede-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+.sede-card h3 {
+  margin-bottom: 10px;
+}
+
+.sede-card p {
+  margin-bottom: 8px;
+  color: #cccccc;
+}
+
+.sede-actions {
+  margin-top: 20px;
+}
