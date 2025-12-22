@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <title>CEPTRA – Centro Profesional de Taekwondo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/styles.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ICONOS -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
 <header class="navbar">
   <div class="logo">CEPTRA</div>
+
   <nav class="menu">
     <a href="index.html">Inicio</a>
     <a href="sedes.html">Sedes</a>
@@ -18,22 +24,60 @@
   </nav>
 </header>
 
+<!-- HERO -->
 <section class="hero">
   <div class="hero-content">
-    <h1>Forjá tu carácter<br><span>Dominá tu espíritu</span></h1>
+
+    <span class="hero-tag">Centro Profesional de Taekwondo</span>
+
+    <h1>
+      Forjá tu carácter<br>
+      <span>Dominá tu espíritu</span>
+    </h1>
 
     <p>
-      Más que un arte marcial, somos una escuela de vida.
+      Más que un arte marcial, una escuela de vida.<br>
       Disciplina, respeto y fortaleza para todas las edades.
     </p>
 
-    <div class="hero-buttons">
+    <div class="hero-actions">
       <a href="granmaster.html" class="btn primary">
+        <i data-lucide="award"></i>
         Conocé al Gran Máster
       </a>
     </div>
+
   </div>
 </section>
+
+<!-- BLOQUE IDENTIDAD -->
+<section class="identity">
+  <div class="identity-grid">
+
+    <div class="identity-card">
+      <i data-lucide="shield"></i>
+      <h3>Disciplina</h3>
+      <p>Formamos carácter a través del compromiso y la constancia.</p>
+    </div>
+
+    <div class="identity-card">
+      <i data-lucide="users"></i>
+      <h3>Comunidad</h3>
+      <p>Una red de sedes, profesores y alumnos unidos por valores.</p>
+    </div>
+
+    <div class="identity-card">
+      <i data-lucide="flame"></i>
+      <h3>Espíritu</h3>
+      <p>Superación personal dentro y fuera del dojang.</p>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  lucide.createIcons();
+</script>
 
 </body>
 </html>
