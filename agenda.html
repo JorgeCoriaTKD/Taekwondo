@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <title>Agenda – CEPTRA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/styles.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
@@ -22,21 +24,52 @@
   <div class="container">
 
     <h1>Agenda</h1>
-    <p class="subtitle">Fechas importantes</p>
+    <p class="subtitle">Fechas y actividades programadas</p>
 
-    <a href="evento.html" class="agenda-item" id="torneo-regional">
-      <div class="agenda-date">
-        <span class="day">15</span>
-        <span class="month">JUN</span>
-      </div>
-      <div class="agenda-info">
-        <h3>Torneo Regional CEPTRA</h3>
-        <p>Competencia regional</p>
-      </div>
-    </a>
+    <div class="agenda-grid">
+
+      <!-- ITEM -->
+      <a href="evento.html" class="agenda-card" id="torneo-regional">
+        <div class="agenda-date">
+          <span class="day">15</span>
+          <span class="month">JUN</span>
+        </div>
+
+        <div class="agenda-info">
+          <h3>Torneo Regional CEPTRA</h3>
+          <p>Competencia regional con todas las sedes</p>
+        </div>
+
+        <div class="agenda-icon">
+          <i data-lucide="arrow-right"></i>
+        </div>
+      </a>
+
+      <!-- ITEM -->
+      <a href="evento.html" class="agenda-card" id="examen-graduacion">
+        <div class="agenda-date">
+          <span class="day">20</span>
+          <span class="month">JUL</span>
+        </div>
+
+        <div class="agenda-info">
+          <h3>Examen de Graduación</h3>
+          <p>Evaluación institucional de alumnos</p>
+        </div>
+
+        <div class="agenda-icon">
+          <i data-lucide="arrow-right"></i>
+        </div>
+      </a>
+
+    </div>
 
   </div>
 </section>
+
+<script>
+  lucide.createIcons();
+</script>
 
 </body>
 </html>
