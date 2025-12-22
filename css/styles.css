@@ -591,3 +591,17 @@ h1, h2, h3 {
   display:inline-flex; align-items:center; gap:8px;
   margin-right:18px; color:#9fd3ff; text-decoration:none; font-weight:600;
 }
+.sede-prof-block {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.sede-prof-block:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.sede-map {
+  margin-top: 20px;
+}
