@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: jorgecoriatkd/Taekwondo
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "inicio"
+    label: "Inicio"
+    files:
+      - label: "Texto principal"
+        name: "inicio"
+        file: "content/inicio.md"
+        fields:
+          - { label: "Título", name: "titulo", widget: "string" }
+          - { label: "Subtítulo", name: "subtitulo", widget: "text" }
+
+  - name: "eventos"
+    label: "Eventos"
+    folder: "content/eventos"
+    create: true
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Fecha", name: "date", widget: "datetime" }
+      - { label: "Imagen", name: "image", widget: "image" }
+      - { label: "Descripción", name: "body", widget: "markdown" }
+
+  - name: "profesores"
+    label: "Profesores"
+    folder: "content/profesores"
+    create: true
+    fields:
+      - { label: "Nombre", name: "name", widget: "string" }
+      - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+      - { label: "Descripción", name: "body", widget: "markdown" }
