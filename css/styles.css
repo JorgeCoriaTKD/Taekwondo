@@ -503,3 +503,59 @@ h1, h2, h3 {
 .evento-cta {
   margin-top: 40px;
 }
+/* ===== AGENDA ===== */
+.agenda-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.agenda-card {
+  display: flex;
+  align-items: center;
+  background: #111;
+  padding: 22px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #fff;
+  transition: transform .3s ease, box-shadow .3s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.agenda-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0,0,0,.6);
+}
+
+.agenda-date {
+  min-width: 70px;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.agenda-date .day {
+  font-size: 28px;
+  font-weight: bold;
+  color: #6dd5fa;
+}
+
+.agenda-date .month {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #aaa;
+}
+
+.agenda-info h3 {
+  margin-bottom: 6px;
+}
+
+.agenda-info p {
+  color: #bbb;
+  font-size: 14px;
+}
+
+.agenda-icon {
+  margin-left: auto;
+  color: #6dd5fa;
+}
