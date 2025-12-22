@@ -559,3 +559,8 @@ h1, h2, h3 {
   margin-left: auto;
   color: #6dd5fa;
 }
+/* ===== SEDES – PULIDO ===== */
+.sede-head h3 { margin-bottom: 6px; }
+.sede-dir { display:flex; align-items:center; gap:8px; color:#9fd3ff; }
+.sede-prof { margin-top:10px; }
+.sede-actions .btn { display:inline-flex; align-items:center; gap:8px; }
