@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <title>Eventos – CEPTRA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/styles.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
@@ -22,26 +24,54 @@
   <div class="container">
 
     <h1>Eventos</h1>
-    <p class="subtitle">Actividades, torneos y encuentros</p>
+    <p class="subtitle">
+      Torneos, exámenes y actividades institucionales
+    </p>
 
     <div class="eventos-grid">
 
-      <a href="evento.html" class="evento-card">
-        <h3>Torneo Regional CEPTRA</h3>
-        <p class="evento-fecha">15 de junio de 2025</p>
-        <p class="evento-desc">Competencia regional con todas las sedes.</p>
+      <!-- EVENTO -->
+      <a href="evento.html" class="evento-card clickable">
+        <div class="evento-head">
+          <span class="evento-tag">Competencia</span>
+          <h3>Torneo Regional CEPTRA</h3>
+        </div>
+
+        <p class="evento-fecha">
+          <i data-lucide="calendar"></i>
+          15 de junio de 2025
+        </p>
+
+        <p class="evento-desc">
+          Encuentro regional con participación de todas las sedes CEPTRA.
+        </p>
       </a>
 
-      <a href="evento.html" class="evento-card">
-        <h3>Examen de Graduación</h3>
-        <p class="evento-fecha">20 de julio de 2025</p>
-        <p class="evento-desc">Evaluación institucional.</p>
+      <!-- EVENTO -->
+      <a href="evento.html" class="evento-card clickable">
+        <div class="evento-head">
+          <span class="evento-tag">Examen</span>
+          <h3>Examen de Graduación</h3>
+        </div>
+
+        <p class="evento-fecha">
+          <i data-lucide="calendar"></i>
+          20 de julio de 2025
+        </p>
+
+        <p class="evento-desc">
+          Evaluación institucional para alumnos de todas las sedes.
+        </p>
       </a>
 
     </div>
 
   </div>
 </section>
+
+<script>
+  lucide.createIcons();
+</script>
 
 </body>
 </html>
