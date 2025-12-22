@@ -2,9 +2,11 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Evento – CEPTRA</title>
+  <title>Torneo Regional – CEPTRA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/styles.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
@@ -19,23 +21,45 @@
 </header>
 
 <section class="section">
-  <div class="container">
+  <div class="container evento-single">
+
+    <span class="evento-tag big">Competencia</span>
 
     <h1>Torneo Regional CEPTRA</h1>
-    <p class="subtitle">Domingo 15 de junio de 2025</p>
 
-    <p>
-      Evento regional con participación de todas las sedes y escuelas invitadas.
+    <div class="evento-meta">
+      <div>
+        <i data-lucide="calendar"></i>
+        15 de junio de 2025
+      </div>
+      <div>
+        <i data-lucide="map-pin"></i>
+        La Plata
+      </div>
+    </div>
+
+    <p class="evento-text">
+      Evento competitivo regional con participación de todas las sedes CEPTRA
+      y escuelas invitadas. Destinado a alumnos de distintas categorías y edades.
     </p>
 
-    <div class="actions">
-      <a href="agenda.html#torneo-regional" class="btn secondary">
-        Ver en Agenda
+    <p class="evento-text">
+      Se evaluarán técnicas, formas, combate y espíritu marcial.
+      Jornada orientada al crecimiento deportivo, formativo y personal.
+    </p>
+
+    <div class="evento-cta">
+      <a href="agenda.html#torneo-regional" class="btn primary">
+        Ver fecha en Agenda
       </a>
     </div>
 
   </div>
 </section>
+
+<script>
+  lucide.createIcons();
+</script>
 
 </body>
 </html>
